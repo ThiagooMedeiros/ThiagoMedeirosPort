@@ -1,0 +1,76 @@
+.projects{
+  grid-column: 1 / 3;
+
+  padding: 32px 40px;
+}
+.project_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+
+  margin-top: 16px;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+
+  overflow: hidden; /*borda nos cantos superiores da img*/
+  text-decoration: none;
+
+  width: 100%;
+
+  border-radius: 6px;
+  padding-bottom: 12px;
+  border: 1px solid var(--background-body);
+}
+.project > picture{
+  width: 100%;
+  height: 220px;
+
+  overflow: hidden; /*O conteúdo é cortado e nenhuma barra de rolagem é exibida*/
+}
+.project > picture > img{
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover; /*O conteúdo substituído é dimensionado para manter sua proporção e preencher toda a caixa de conteúdo do elemento*/
+
+  transition: all 0.4s;
+}
+.project > strong{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--secondary);
+
+  text-align: center; /*evita que o texto quebra ao passar de uma liha*/
+
+  padding: 0 18px;
+
+  transition: all 0.4s;
+}
+.project > .project_tags{
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+
+  padding: 0 8px;
+  /*margin-top: auto; Não achei que ficou legal*/ 
+}
+.project > .project_tags > span{
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--secondary);
+
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: var(--background-badge);
+}
+.project:hover > picture > img{
+  transform: scale(1.1); /*aumenta a img em 10%*/
+}
+.project:hover > strong{
+  color: var(--link);
+}
+
