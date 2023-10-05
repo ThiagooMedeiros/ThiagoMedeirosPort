@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Tube Summary",
+    "image": "./assets/tubesummaryimg.png",
+    "tags": ["Inteligência Artificial", "JavaScript, HTML e CSS", "NodeJS", "Frameworks e Bibliotecas (outros)", "Git", "Figma"],
+    "link": "https://github.com/ThiagooMedeiros/TubeSummary"
+  },
+	{
+    "name": "Link Aggregator for Instagram",
+    "image": "./assets/myProject.png",
+    "tags": ["JavaScript, HTML e CSS", "Git", "Figma"],
+    "link": "https://github.com/ThiagooMedeiros/projectInsta"
+  }
+]
