@@ -10,5 +10,11 @@
     "image": "./assets/myProject.png",
     "tags": ["JavaScript, HTML e CSS", "Git", "Figma"],
     "link": "https://github.com/ThiagooMedeiros/projectInsta"
+  },
+  {
+    "name": "Projeto em andamento...",
+    "image": "./assets/404.jpeg",
+    "tags": [" "],
+    "link": ""
   }
 ]

@@ -74,3 +74,26 @@
   color: var(--link);
 }
 
+/*----------@MEDIA----------*/
+
+@media(max-width: 1080px){
+  .projects{
+    padding: 24px;
+  }
+
+  #project_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 768px){
+  #project_content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project > picture {
+    height: 180px;
+  }
+}
+
