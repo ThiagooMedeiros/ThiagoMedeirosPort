@@ -2,6 +2,8 @@
 @import url('./social.css');
 @import url('./about.css');
 @import url('./projects.css');
+@import url('./certificates.css');
+
 
 *{
     margin: 0;

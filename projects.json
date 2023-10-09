@@ -12,9 +12,9 @@
     "link": "https://github.com/ThiagooMedeiros/projectInsta"
   },
   {
-    "name": "Projeto em andamento...",
-    "image": "./assets/404.jpeg",
-    "tags": [" "],
-    "link": ""
+    "name": "Guardiões da Galáxia",
+    "image": "./assets/guardioes0.png",
+    "tags": ["JavaScript, HTML e CSS", "Git"],
+    "link": "https://github.com/ThiagooMedeiros/GuardioesdaGalaxia"
   }
 ]
