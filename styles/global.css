@@ -3,6 +3,8 @@
 @import url('./about.css');
 @import url('./projects.css');
 @import url('./certificates.css');
+@import url('./button.css');
+
 
 
 *{
@@ -12,6 +14,24 @@
 
 }
 :root {
+  --primary: #c8c8c8;
+  --secondary: #c8c8c8;
+
+  --link: #107fd2;
+
+  --background-card: #191919;
+  --background-badge: #303030;
+  --background-body: #212529;
+
+  --shadow-image: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  --shadow-card: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  --smoke: #212529;
+
+  --button_color: #c8c8c8;
+  --button_outline_color: #303030;
+  }
+  .light{
     --primary: #334155;
     --secondary: #2C2D2E;
   
@@ -23,6 +43,11 @@
   
     --shadow-image: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     --shadow-card: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    --smoke: #666666;
+
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
   }
   body {
     background: var(--background-body);
