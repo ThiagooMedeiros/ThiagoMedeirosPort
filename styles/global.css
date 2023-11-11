@@ -4,6 +4,8 @@
 @import url('./projects.css');
 @import url('./certificates.css');
 @import url('./button.css');
+@import url('./scrollbar.css');
+
 
 
 
@@ -30,6 +32,9 @@
 
   --button_color: #c8c8c8;
   --button_outline_color: #303030;
+
+  --sb-track-color: #1c232c;
+  --sb-thumb-color: #353535;
   }
   .light{
     --primary: #334155;
@@ -44,10 +49,13 @@
     --shadow-image: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     --shadow-card: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
-    --smoke: #666666;
+    --smoke: #353535;
 
     --button_color: #e8e8e8;
     --button_outline_color: #000000;
+
+    --sb-track-color: #e8e8e8;
+    --sb-thumb-color: #909090;
   }
   body {
     background: var(--background-body);
