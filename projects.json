@@ -2,7 +2,7 @@
   {
     "name": "Ecommerce Store",
     "image": "./assets/print-ecommerce-01.png",
-    "tags": ["React", "Next.js 13, Tailwind CSS", "Next Auth", "Postgres", "Prisma", "shadcn/ui", "API do Stripe"],
+    "tags": ["React", "Next.js 13", "Tailwind CSS", "Next Auth", "Postgres", "Prisma", "shadcn/ui", "API do Stripe"],
     "link": "https://github.com/ThiagooMedeiros/EcommerceStore"
   },
   {
