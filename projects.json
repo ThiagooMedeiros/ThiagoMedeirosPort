@@ -2,16 +2,45 @@
   {
     "name": "Ecommerce Store",
     "image": "./assets/print-ecommerce-01.png",
-    "tags": ["React", "Next.js 13", "Tailwind CSS", "Next Auth", "Postgres", "Prisma", "shadcn/ui", "API do Stripe"],
+    "tags": [
+      "React",
+      "Next.js 13",
+      "Tailwind CSS",
+      "Next Auth",
+      "Postgres",
+      "Prisma",
+      "shadcn/ui",
+      "API do Stripe"
+    ],
     "link": "https://github.com/ThiagooMedeiros/EcommerceStore"
   },
   {
     "name": "Tube Summary",
     "image": "./assets/tubesummaryimg.png",
-    "tags": ["Inteligência Artificial", "JavaScript, HTML e CSS", "NodeJS", "Frameworks e Bibliotecas (outros)", "Git", "Figma"],
+    "tags": [
+      "Inteligência Artificial",
+      "JavaScript, HTML e CSS",
+      "NodeJS",
+      "Frameworks e Bibliotecas (outros)",
+      "Git",
+      "Figma"
+    ],
     "link": "https://github.com/ThiagooMedeiros/TubeSummary"
   },
-	{
+  {
+    "name": "Valorant Page",
+    "image": "./assets/print-pag01.png",
+    "tags": [
+      "JavaScript, HTML e CSS",
+      "NodeJS",
+      "yarn",
+      "Frameworks e Bibliotecas (outros)",
+      "Git",
+      "Figma"
+    ],
+    "link": "https://github.com/ThiagooMedeiros/ValorantPage"
+  },
+  {
     "name": "Link Aggregator for Instagram",
     "image": "./assets/myProject.png",
     "tags": ["JavaScript, HTML e CSS", "Git", "Figma"],
